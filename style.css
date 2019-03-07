@@ -16,6 +16,7 @@
 }
 
 header {
+    
     /*Sizing of the element*/
     height: 500px;
     width: 100%;
@@ -25,7 +26,7 @@ header {
     background-size: cover;
     
     text-align: center;
-    color: #000000;
+    color: #ffffff;
     font-family: 'Noto Serif', serif;
 
 }
@@ -34,8 +35,45 @@ header p {
     font-style: italic;
 }
 
-div.transbox {
-    margin: 5% 10%;
-    background-color: rgba(255, 255, 255, 0.85);
+.services {
+    text-align: center;
+}
+
+.services i {
     
+    /*Adjust the size and position of the icon*/
+    font-size: 30px;
+    padding: 25px 20px;
+    
+    /*Color changes the color of the icon*/
+    color: #E7ECD5;
+    background: #172317;
+    
+    /*Resize the container the icon is in*/
+    width: 80px;
+    height: 80px;
+    
+    /*Changes the roundness of the container*/
+    border-radius: 50%;
+}
+
+.services span {
+    width: 200px;
+    display: inline-block;
+}
+
+.pricing {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    
+    background: #E7ECD5;
+    
+    width: 150px;
 }
