@@ -33,6 +33,7 @@ header {
 
 header p {
     font-style: italic;
+    text-align: center;
 }
 
 .services {
@@ -66,14 +67,35 @@ header p {
     text-align: center;
 }
 
-.title {
+.pricing title {
     text-align: center;
-    border: 1px;
-    border-style: solid;
     margin: 10px;
+}
+
+.team {
+    text-align: center;
+}
+
+.team img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.contact .input-group {
+    padding: 2px;
+}
+
+.contact i {
     padding: 10px;
-    
-    background: #E7ECD5;
-    
-    width: 150px;
+}
+
+.contact button {
+    width: 100%;
+    background-color: #db4213;
+}
+
+.contact button:hover {
+    background-color: #ffa589;
 }

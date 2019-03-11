@@ -1,130 +1,208 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        
-        <title>My Blog</title>
-        
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
 
-        <!-- Links -->
-        <link rel="stylesheet" type="text/css" href="style.css">
-        
-        <!-- Font -->
-        <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
-        
-        <!-- Icons -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<head>
 
-    </head>
-    <body>
-        <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <!-- Company name or brand -->
-            <a class="navbar-brand" href="#">CompanyName</a>
-            
-            <!-- Button that will appear when the screen size is too narrow to display full navbar -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <title>My Blog</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+    <!-- Links -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Company name or brand -->
+        <a class="navbar-brand" href="#">CompanyName</a>
+
+        <!-- Button that will appear when the screen size is too narrow to display full navbar -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
-            <!-- Nav items -->
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-item nav-link active" href="#">About Us<span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="#">Services</a>
-                  <a class="nav-item nav-link" href="#">Pricing</a>
-                  <a class="nav-item nav-link" href="#">Contact Us</a>
-                </div>
+
+        <!-- Nav items -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">About Us<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Services</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link" href="#">Contact Us</a>
             </div>
-        </nav>
-        
-        <!-- Header -->
-        <header class = "d-flex align-items-center">
-            <div class = "box">
-            <h1>Company Slogan</h1><p>
-                All about CompanyName. Lorem ipsum dolor sit amert, consecteretur adipiscing elit. 
-                In at purus non mi convallis gravida.
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="d-flex align-items-center">
+        <div class="box">
+            <h1>Company Slogan</h1>
+            <p>
+                All about CompanyName. Lorem ipsum dolor sit amert, consecteretur adipiscing elit. In at purus non mi convallis gravida.
             </p>
             <button type="button" class="btn btn-primary">Buy Now</button>
             <button type="button" class="btn btn-success">View Details</button>
+        </div>
+    </header>
+
+    <!-- Services -->
+    <section class="services container">
+        <h1>Services</h1>
+        <p>Our company offers these services.</p>
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6">
+                <i class="fas fa-desktop"></i>
+                <span><strong>Web Design</strong></span>
+                <p>We offer web design services to businessses who are interested in creating a digital presence.</p>
             </div>
-        </header>
-        
-        <!-- Services -->
-        <section class = "services container">
-            <h1>Services</h1>
-            <p>Our company offers these services.</p>
-            <hr>
-            
-            <div class = "row">
-                <div class = "col-md-6">
-                    <i class="fas fa-desktop"></i>
-                    <span><strong>Web Design</strong></span>
-                    <p>We offer web design services to businessses who are interested in
-                    creating a digital presence.</p>
-                </div>
-                <div class = "col-md-6">
-                    <i class="fas fa-mobile-alt"></i>
-                    <span><strong>Mobile Applications</strong></span>
-                    <p>We create mobile applications for companies who are interested
-                    in expanding their product to reach a larger audience.</p>
+            <div class="col-md-6">
+                <i class="fas fa-mobile-alt"></i>
+                <span><strong>Mobile Applications</strong></span>
+                <p>We create mobile applications for companies who are interested in expanding their product to reach a larger audience.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <i class="fas fa-database"></i>
+                <span><strong>Web Design</strong></span>
+                <p>We offer web design services to businessses who are interested in creating a digital presence.</p>
+            </div>
+            <div class="col-md-6">
+                <i class="fas fa-university"></i>
+                <span><strong>Mobile Applications</strong></span>
+                <p>We create mobile applications for companies who are interested in expanding their product to reach a larger audience.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing container">
+        <h1>Pricing</h1>
+        <hr>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="title">
+                    <strong class="standard">Standard</strong>
+                    <p class="price">$9.99/Month</p>
+                    <p>100 users</p>
                 </div>
             </div>
-            
-            <div class = "row">
-                <div class = "col-md-6">
-                    <i class="fas fa-desktop"></i>
-                    <span><strong>Web Design</strong></span>
-                    <p>We offer web design services to businessses who are interested in
-                    creating a digital presence.</p>
-                </div>
-                <div class = "col-md-6">
-                    <i class="fas fa-mobile-alt"></i>
-                    <span><strong>Mobile Applications</strong></span>
-                    <p>We create mobile applications for companies who are interested
-                    in expanding their product to reach a larger audience.</p>
+
+            <div class="col-md-4">
+                <div class="title">
+                    <strong class="premium">Premium</strong>
+                    <p class="price">$19.99/Month</p>
+                    <p>100 users</p>
                 </div>
             </div>
-            
-        </section>
-        
-        <!-- Pricing -->
-        <section class = "pricing container">
-            <h1>Pricing</h1>
-            <hr>
-            
-            <div class = "row">
-                <div class = "col-md-4">
-                    <div class = "title">
-                        <strong class = "standard">Standard</strong>
-                        <p class = "price">$9.99/Month</p>
-                        <p>100 users</p>
+
+            <div class="col-md-4">
+                <div class="title">
+                    <strong class="ultimate">Ultimate</strong>
+                    <p class="price">$29.99/Month</p>
+                    <p>100 users</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team container">
+        <h1>Team</h1>
+        <hr>
+
+        <div class="row">
+            <div class="col-md-3">
+                <img src="face1.jpg" />
+                <h1>Michael</h1>
+                <h3>Software</h3>
+                <p>The Robot?</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="face2.jpg" />
+                <h1>Phil Snow</h1>
+                <h3>CEO</h3>
+                <p>Actual CEO</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="face3.jpg" />
+                <h1>Alyssa</h1>
+                <h3>Teacher</h3>
+                <p>The Teacher</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="face4.jpg" />
+                <h1>Joe Bloggs</h1>
+                <h3>COO</h3>
+                <p>I am the COO of the company.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact container">
+        <h1>Contact</h1>
+        <hr>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <i class="far fa-user"></i>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                     </div>
                 </div>
-                
-                <div class = "col-md-4">
-                    <div class = "title">
-                        <strong class = "premium">Premium</strong>
-                        <p class = "price">$19.99/Month</p>
-                        <p>100 users</p>
+                <div class="row">
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <i class="far fa-envelope"></i>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                     </div>
                 </div>
-                
-                <div class = "col-md-4">
-                    <div class = "title">
-                        <strong class = "ultimate">Ultimate</strong>
-                        <p class = "price">$29.99/Month</p>
-                        <p>100 users</p>
+                <div class="row">
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <!-- Scripts -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
-        
-    </body>
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="input-group">
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary">Primary</button>                                                                                                                                                                                                                                      
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
